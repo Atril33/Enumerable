@@ -13,6 +13,6 @@ class My_List
 end
 
 list = My_List.new(1, 2, 3, 4)
-list.all? { |ele| ele < 5 }
-list.any? { |ele| ele == 5 }
-list.filter { |ele| ele.even? }
+list.all? { |e| e < 5 }
+list.any? { |e| e == 5 }
+list.filter { |e| e.even? }
