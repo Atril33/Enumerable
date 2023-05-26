@@ -50,3 +50,9 @@ Style/HashTransformKeys:
   Enabled: false
 Style/HashTransformValues:
   Enabled: false
+Style/Documentation:
+  Enabled: false
+Metrics/LineLength:
+  Enabled: false
+Lint/UnusedMethodArgument:
+  Enabled: false
