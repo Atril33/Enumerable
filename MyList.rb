@@ -1,6 +1,6 @@
-require_relative 'My_Enumerable'
+require_relative 'my_enumerable'
 
-class My_List
+class MyList
   include MyEnumerable
 
   def initialize(*items)
@@ -8,11 +8,6 @@ class My_List
   end
 
   def each
-    @list.each { |ele| yield(ele) }
+    @list.each { |ele| yield ele }
   end
 end
-
-list = My_List.new(1, 2, 3, 4)
-list.all? { |e| e < 5 }
-list.any? { |e| e == 5 }
-list.filter { |e| e.even? }

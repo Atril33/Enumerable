@@ -1,17 +1,17 @@
-module My_Enumerable
+module MyEnumerable
   def all?
-    each { |ele| return false unless yield(ele) }
+    each { |item| return false unless yield item }
     true
   end
 
   def any?
-    each { |ele| return true if yield(ele) }
+    each { |item| return true if yield item }
     false
   end
 
   def filter
     result = []
-    each { |ele| result << item if yield(ele) }
+    each { |item| result << item if yield item }
     result
   end
 end
