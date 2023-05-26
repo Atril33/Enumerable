@@ -15,8 +15,7 @@ class MyList
     end
   end
 end
-
 list = MyList.new(1, 2, 3, 4)
-p list.all? { |e| e > 5 }
-p list.any? { |e| e == 5 }
-p list.filter { |e| e.even? }
+puts(list.all? { |e| e > 5 })
+puts(list.any? { |e| e == 5 })
+puts(list.filter { |e| e.even? })
