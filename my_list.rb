@@ -1,7 +1,7 @@
-require_relative 'Enumerable'
+require_relative 'my_enumerable'
 
 class MyList
-  include MyEnumerable
+  include Enumerable
 
   def initialize(*items)
     @list = items
@@ -17,6 +17,6 @@ class MyList
 end
 
 list = MyList.new(1, 2, 3, 4)
-list.all? { |e| e > 5 }
-list.any? { |e| e == 5 }
-list.filter { |e| e.even? }
+p list.all? { |e| e > 5 }
+p list.any? { |e| e == 5 }
+p list.filter { |e| e.even? }
