@@ -50,6 +50,8 @@ Style/HashTransformKeys:
   Enabled: false
 Style/HashTransformValues:
   Enabled: false
+Style/SymbolProc:
+  Enabled: false
 Style/Documentation:
   Enabled: false
 Metrics/LineLength:
