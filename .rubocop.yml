@@ -56,3 +56,5 @@ Metrics/LineLength:
   Enabled: false
 Lint/UnusedMethodArgument:
   Enabled: false
+Style/ExplicitBlockArgument:
+  Enabled: false
