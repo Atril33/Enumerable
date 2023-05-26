@@ -1,4 +1,4 @@
-require_relative 'my_enumerable'
+require_relative 'Enumerable'
 
 class MyList
   include MyEnumerable
